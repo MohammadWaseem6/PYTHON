@@ -40,7 +40,11 @@ is_Stuent =  True
 
 
 age = str(age) 
-gap = int(gpa)
+gap = int(gpa) 
 name = bool(name)
 
 
+name = input("what is Your Name !!")
+age = input("What is your Age ?")
+print(f"Your Name is : {name}")
+print(f"You are  {age} years Old")
